@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   // Target waktu buka
-  const targetDate = new Date(new Date().getTime() + 6000); // 1 menit dari sekarang
+  const targetDate = new Date('2025-06-02T17:00:00+07:00');
 
 
   useEffect(() => {
